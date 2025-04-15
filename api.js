@@ -3,16 +3,21 @@ const api = "https://dummyjson.com/products";
 async function apiFunction() {
   const response = await fetch(api);
   const data = await response.json();
-  console.log(data.products);
 
   const newDiv = document.getElementById("produtos");
   const botao = document.getElementById("botaoId");
+  const botaoLimpar = document.getElementById("botaoClear");
+
   botao.addEventListener("click", () => {
     apiFunction();
   });
 
-  const categorias = [...new Set(data.products.map((p) => p.category))];
-  console.log(categorias);
+  botaoLimpar.addEventListener("click", () => {
+    newDiv.innerHTML = "";
+  });
+
+  // const categorias = [...new Set(data.products.map((p) => p.category))];
+  // console.log(categorias);
 
   newDiv.innerHTML = "";
   data.products.map((produtos) => {
