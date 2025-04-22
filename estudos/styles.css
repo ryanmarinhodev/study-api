@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(24, 24, 85);
+}
+
+.container {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(135, 187, 236);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.DeusBom, .DeusBom2, .DeusBom3 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(58, 58, 82);
+    margin: 15px;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
