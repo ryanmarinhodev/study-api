@@ -1,16 +1,24 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: rgb(24, 24, 85);
 }
 
 .container {
     width: 100%;
+    background-color: rgb(65, 163, 255);
+}
+
+.elements {
+    width: 100%;
     height: 50vh;
     background-color: rgb(135, 187, 236);
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
+    align-items: center;
 }
-
 
 .DeusBom, .DeusBom2, .DeusBom3 {
     width: 200px;
@@ -23,3 +31,75 @@ body {
     box-sizing: border-box;
 }
 
+
+/* Displays */
+
+.containerDisplay {
+    background-color: rgb(0, 84, 163);
+}
+
+.FilhoDisplays {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(135, 187, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1 {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+span {
+    background-color: blue;
+    display: block;
+}
+
+.wrapper {
+    margin-top: 50px;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .caixa {
+    margin: 10px;
+    padding: 10px;
+    background: #3c7;
+    color: black;
+    border: 2px solid #000;
+  }
+  
+  .bloco1 {
+    display: block;
+  }
+  
+  .bloco2 {
+    display: inline;
+  }
+  
+  .bloco3 {
+    display: inline-block;
+  }
+  
+
+
+.containerPaulo {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1, .box2, .box3 {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid red;
+}
