@@ -103,3 +103,15 @@ span {
     background-color: #fff;
     border: 2px solid red;
 }
+
+
+/* unidades de medida */
+.Test {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.em {
+    font-size: 2em;
+}
