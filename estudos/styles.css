@@ -112,6 +112,11 @@ span {
     background-color: aquamarine;
 }
 
+.emPai {
+    font-size: 32px;
+    background-color: red;
+}
+
 .em {
-    font-size: 2em;
+    font-size: 2rem;
 }
