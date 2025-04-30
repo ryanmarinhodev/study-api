@@ -35,6 +35,8 @@ ul {
     align-items: center;
     border: 12px solid black;
     box-sizing: border-box;
+    flex-wrap: wrap;
+    
 }
 
 .box-filho1, .box-filho2, .box-filho3 {
@@ -42,4 +44,5 @@ ul {
     width: 150px;
     height: 150px;
     box-shadow: -5px 10px 15px black;
+    
 }
