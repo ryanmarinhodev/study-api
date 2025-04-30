@@ -19,6 +19,14 @@ body {
     box-sizing: border-box;
 }
 
+.pai {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+    
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -40,9 +48,10 @@ ul {
 }
 
 .box-filho1, .box-filho2, .box-filho3 {
-    background-color: aliceblue;
+    background-color: rgb(145, 255, 0);
     width: 150px;
     height: 150px;
     box-shadow: -5px 10px 15px black;
     
 }
+
