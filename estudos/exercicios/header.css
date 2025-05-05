@@ -14,7 +14,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     padding: 0 40px;
     box-sizing: border-box;
 }
@@ -34,7 +33,7 @@ ul {
 
 }
 
-.box {
+/* .box {
     width: 100%;
     height: 500px;
     background-color: blue;
@@ -51,14 +50,32 @@ ul {
     background-color: rgb(145, 255, 0);
     width: 150px;
     height: 150px;
-    box-shadow: -5px 10px 15px black;
-    
-}
+    box-shadow: -5px 10px 15px black;   
+} */
 
 
 .grid {
     width: 100%;
-    height: 50%;
+    height: 30%;
     background-color: black;
+    gap: 8px;
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box-grid {
+    background-color: yellow;
+}
+
+.grid2 {
+    width: 100%;
+    height: 30%;
+    background-color: cadetblue;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.box-grid2 {
+    background-color: aqua;
 }
