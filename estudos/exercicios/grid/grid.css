@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* exercicio 1 */
 .container {
   width: 100%;
   max-width: 2000px;
@@ -29,4 +30,43 @@
     flex-direction: column;
     gap: 25px;
   }
+}
+
+
+
+/* exercicio 2 */
+
+.ex2 {
+  width: 100%;
+  background-color: rgb(8, 61, 63);
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexbox ul {
+  /* nao entendi para que usar o min-width: ; */
+  gap: 20px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  display: flex;
+  margin: 0 40px;
+  justify-content: space-between;
+}
+
+.grid {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 40px;
+}
+
+.grid ul {
+  grid-template-columns: (auto-fit, minmax(200px, 1fr));
+  
+}
+
+.grid li {
+  list-style: none;
 }
