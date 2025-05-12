@@ -62,16 +62,35 @@
 }
 
 .grid ul {
-  grid-template-columns: (auto-fit, minmax(200px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin: 10px 0;
   
 }
 
 .grid li {
+  background-color: teal;
+  padding: 12px;
+  text-align: center;
   list-style: none;
 }
 
 /* exercicio 3 */
 .containerButton {
   width: 100%;
-  background-color: black;
+  height: auto;
+  padding: 12px 0;
+  background-color: rgb(2, 32, 12);
+  display: flex;
+  justify-content: space-around;
 }
+
+.button {
+  background-color: chocolate;
+  border-radius: 7px;
+  max-width: 100%;
+  cursor: pointer;
+
+}
+
