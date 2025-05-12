@@ -96,40 +96,40 @@
 
 .containerServices {
   width: 100%;
-  padding: 40px 20px;
+  height: auto;
   background-color: rgb(92, 92, 92);
   text-align: center;
 }
 
 .containerServices h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  color: aliceblue;
-  margin-bottom: 40px;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 20px 0;
 }
 
-.service-card {
+.containerGrid {
+  width: 100%;
+  height: auto;
+  display: grid;
+  padding: 10px;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  justify-content: center;
+
+}
+
+.boxService {
   background-color: crimson;
-  padding: 20px;
-  border-radius: 8px;
-  color: white;
-  text-align: left;
+  border-radius: 10px;
+  min-height: 250px;
+  padding: 25px;
+  display: grid;
+  gap: 10px;
+  
 }
 
-.service-card h2 {
-  margin-bottom: 10px;
+.biografiaSpan {
+  color: aliceblue;
+  display: block;
 }
-
-.bio {
-  font-size: 0.9rem;
-  opacity: 0.9;
-}
-
