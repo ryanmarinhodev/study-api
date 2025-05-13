@@ -140,4 +140,44 @@
 
 /* exercicio 4 */
 
+.containerProjects {
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
 
+.h2Projects {
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.gridCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  padding: 50px 0;
+  gap: 20px;
+  margin: 0 20px;
+}
+
+.projects {
+  background-color: tomato;
+  padding: 10px;
+  display: grid;
+  gap: 25px;
+}
+
+.projects h2 {
+  color: aliceblue;
+}
+
+.projects button {
+  width: 100px;
+  height: 22px;
+  background-color: cadetblue;
+  border-radius: 25px;
+  border: none;
+  margin: 0 auto;
+}
