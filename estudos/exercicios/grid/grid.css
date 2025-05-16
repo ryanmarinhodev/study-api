@@ -17,21 +17,19 @@
 
 .gridContainer {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(250px, 400px)); */
-  grid-template-columns: repeat(2, 2fr);
   gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   justify-content: center;
-  padding: 30px 0;
-  flex-wrap: wrap;
-  padding: 10px;
+  padding: 30px;
 }
 
 .gridContainer img {
   width: 100%;
+  display: block;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .gridContainer {
     grid-template-columns: repeat(1, 1fr);
   }
-}
+} */
