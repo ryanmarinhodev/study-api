@@ -4,18 +4,23 @@
     box-sizing: border-box;
 }
 
+:root {
+    --cor-fundo-header: rgba(0,0,0,0.6);
+    --cor-text: aliceblue;
+}
+
 .navigation {
     width: 100%;
     height: auto;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--cor-fundo-header);
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 3;
     position: fixed;
-    color: aliceblue;
+    color: var(--cor-text);
 }
 
 .navigation nav ul {
@@ -39,7 +44,6 @@
     justify-content: center;
     position: relative;
     inset: 0
-
 }
 
 .overlay {
@@ -57,4 +61,5 @@
     color: white;
     z-index: 2;
     font-size: 2.5rem;
+    letter-spacing: 2px;
 }
