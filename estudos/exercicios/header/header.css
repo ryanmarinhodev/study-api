@@ -33,6 +33,10 @@
     list-style: none;
 }
 
+.navigation li:nth-child(odd) {
+    color: red;
+}
+
 .hero {
     height: 100vh;
     background-image: url('https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
@@ -62,4 +66,25 @@
     z-index: 2;
     font-size: 2.5rem;
     letter-spacing: 2px;
+}
+
+.button {
+    background-color: red;
+    z-index: 2;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    display: block;
+}
+
+.button:hover {
+    background-color: aqua;
+    transform: rotateY(180deg);
+}
+
+.button:focus {
+    outline: 4px solid #4f46e5;
+    background-color: blueviolet;
 }
